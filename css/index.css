@@ -1,0 +1,68 @@
+
+/*Header*/
+header {
+    background-color:#1a1d1e;
+}
+div.header {
+    text-align: center;
+}
+header div.header img {
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+}
+
+/* Middle */
+
+body div.middle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, 50%);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2%;
+
+}
+.un {
+    background-color: rgb(245, 208, 72);
+    border-radius: 15px;
+    margin: 3%;
+}
+.deux{
+    background-color: #1a1d1e;
+    color: whitesmoke;
+    margin: 3%;
+    border-radius: 15px;
+}
+.trois{
+    background-color: #1a1d1e; 
+    margin: 3%;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.quatre {
+    background-color: rgb(245, 208, 72);
+    margin: 3%;
+    border-radius: 15px;
+}
+.cinq {
+    background-color: rgb(245, 208, 72);
+    margin: 3%;
+    border-radius: 15px;
+}
+.six {
+    background-color: #1a1d1e;
+    margin: 3%;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.sept {
+    background-color: rgb(245, 208, 72);
+    grid-column: span 2 ;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+/* Footer */
