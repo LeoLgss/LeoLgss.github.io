@@ -5,6 +5,7 @@ header {
 }
 div.header {
     text-align: center;
+    border-bottom: solid 4px rgb(245, 208, 72);
 }
 header div.header img {
     border-radius: 5px;
@@ -19,7 +20,7 @@ header div.header img {
 body div.middle {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4, 20%);
+    grid-template-rows: repeat(4, 30%);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 2%;
@@ -29,33 +30,37 @@ body div.middle {
     background-color: rgb(245, 208, 72);
     border-radius: 15px;
     margin: 3%;
+    border:#1a1d1e solid 3px;
 }
 .deux{
     background-color: rgb(245, 208, 72);
     margin: 3%;
     border-radius: 15px;
+    border: solid 3px #1a1d1e;
 }
 .trois{
     background-color: #1a1d1e; 
     margin: 3%;
-    color: whitesmoke;
     border-radius: 15px;
+    border: solid 3px #1a1d1e;
 }
 .quatre {
     background-color: #1a1d1e; 
     margin: 3%;
-    color: whitesmoke;
     border-radius: 15px;
+    border: solid 3px #1a1d1e;
 }
 .cinq {
     background-color: rgb(245, 208, 72);
     margin: 3%;
     border-radius: 15px;
+    border: solid 3px #1a1d1e;
 }
 .six {
     background-color: rgb(245, 208, 72);
     margin: 3%;
     border-radius: 15px;
+    border: solid 3px #1a1d1e;
 }
 .sept {
     background-color: #1a1d1e;
@@ -63,9 +68,75 @@ body div.middle {
     color: whitesmoke;
     margin: 3%;
     border-radius: 15px;
-}
-a {
+    border: solid 3px #1a1d1e;
 
+}
+
+/* Liens a */
+
+a {
+    color: #1a1d1e;
+}
+a.noir {
+    color: whitesmoke;
+}
+
+/* Hover */
+
+.un:hover {
+    background-color: #1a1d1e;
+    transition: 1s;
+}
+.deux:hover {
+    background-color: #1a1d1e;
+    transition: 1s;
+}
+.trois:hover {
+    background-color: rgb(245, 208, 72);
+    transition: 1s;
+}
+.quatre:hover {
+    background-color: rgb(245, 208, 72);
+    transition: 1s;
+}
+.cinq:hover {
+    background-color: #1a1d1e;
+    transition: 1s;
+}
+.six:hover {
+    background-color: #1a1d1e;
+    transition: 1s;
+}
+.sept:hover {
+    background-color: rgb(245, 208, 72);
+    transition: 1s;
+}
+/* ecritures hover */
+a.jaune:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+a.noir:hover {
+    color: #1a1d1e;
+    transition: 0.5s;
 }
 
 /* Footer */
+
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(245, 208, 72);
+    color: #1a1d1e;
+    border-top: #1a1d1e solid 4px;
+}
+.contacts {
+    grid-column: 1;
+    text-align: center;
+}
+.copyright {
+    grid-column: 2;
+    text-align: center;
+    
+}
